@@ -1,0 +1,14 @@
+/home/tanaka/master_upg_sql/M_APPLIANCES_CATEGORY/copy_data_with_agencyID.sql
+/home/tanaka/master_upg_sql/M_APPLIANCES_CATEGORY/#copy_data_with_agencyID.sql#
+/home/tanaka/master_upg_sql/M_FACILITIES_CATEGORY/create_tmp_fac_category.sql
+/home/tanaka/master_upg_sql/M_FACILITIES_CATEGORY/#create_tmp_fac_category.sql#
+/home/tanaka/master_upg_sql/M_FACILITIES/create_tmp_facilities.sql
+/home/tanaka/master_upg_sql/M_FACILITIES/#create_tmp_facilities.sql#
+/home/tanaka/master_upg_sql/M_APPLIANCES_CATEGORY/create_tmp_app_category.sql
+/home/tanaka/master_upg_sql/M_APPLIANCES_CATEGORY/#create_tmp_app_category.sql#
+/home/tanaka/master_upg_sql/M_APPLIANCES/copy_data_with_agencyID.sql
+/home/tanaka/master_upg_sql/M_APPLIANCES/#copy_data_with_agencyID.sql#
+/home/tanaka/master_upg_sql/M_APPLIANCES/create_tmp_appliances.sql
+/home/tanaka/master_upg_sql/M_APPLIANCES/#create_tmp_appliances.sql#
+/home/tanaka/master_upg_sql/M_APPLIANCES/create_new_appliances.sql
+/home/tanaka/master_upg_sql/M_APPLIANCES/#create_new_appliances.sql#

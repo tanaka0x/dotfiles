@@ -1,0 +1,14 @@
+/home/tanaka/Project/liberty_innovation/liberty_app_srv/app/controllers/api/v1/diary_entries_controller.rb
+/home/tanaka/Project/liberty_innovation/liberty_app_srv/app/controllers/api/v1/#diary_entries_controller.rb#
+/home/tanaka/Project/liberty_innovation/liberty_app_srv/app/views/api/v1/diary_entries/update.json.jbuilder
+/home/tanaka/Project/liberty_innovation/liberty_app_srv/app/views/api/v1/diary_entries/#update.json.jbuilder#
+/home/tanaka/Project/liberty_innovation/liberty_app_srv/app/views/api/v1/diary_entries/create.json.jbuilder
+/home/tanaka/Project/liberty_innovation/liberty_app_srv/app/views/api/v1/diary_entries/#create.json.jbuilder#
+/home/tanaka/Project/liberty_innovation/liberty_app_srv/spec/requests/api/v1/diary_entries_spec.rb
+/home/tanaka/Project/liberty_innovation/liberty_app_srv/spec/requests/api/v1/#diary_entries_spec.rb#
+/home/tanaka/Project/liberty_innovation/liberty_app_srv/app/services/api/v1/create_entry_with_post.rb
+/home/tanaka/Project/liberty_innovation/liberty_app_srv/app/services/api/v1/#create_entry_with_post.rb#
+/home/tanaka/Project/liberty_innovation/liberty_app_srv/app/views/api/v1/comments/create.json.jbuilder
+/home/tanaka/Project/liberty_innovation/liberty_app_srv/app/views/api/v1/comments/#create.json.jbuilder#
+/home/tanaka/Project/liberty_innovation/liberty_app_srv/spec/models/diary_post_spec.rb
+/home/tanaka/Project/liberty_innovation/liberty_app_srv/spec/models/#diary_post_spec.rb#

@@ -1,0 +1,1594 @@
+((("send" .
+   [1 0 0 0])
+  ("logger" .
+   [1 0 0 0 0 0])
+  ("is" .
+   [1 0])
+  ("opened?" .
+   [1 0 0 0 0 0 0])
+  ("open" .
+   [1 0 0 0])
+  ("empty?" .
+   [1 0 0 0 0 0])
+  ("target_ids" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("if" .
+   [4 0])
+  ("client" .
+   [6 0 0 0 0 0])
+  ("token:" .
+   [2 0 0 0 0 0])
+  ("virtual_token" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("push" .
+   [4 0 0 0])
+  ("virtualtoken" .
+   [0 0 0 1 0 0 0 0 0 0 0 0])
+  ("certificate:" .
+   [1 0 0 0 0 0 1 0 0 0 0 0])
+  ("virtual_cert" .
+   [0 0 0 1 0 0 0 0 0 0 0 0])
+  ("cer" .
+   [1 0 0])
+  ("virtualfile" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("receive" .
+   [1 0 0 0 0 0 0])
+  ("allow" .
+   [1 0 0 0 0])
+  ("stubbed_apns" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("Apns::Persistent::PushClient" .
+   [0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("and_return" .
+   [1 0 0 2 0 0 0 0 0 0])
+  ("rspec" .
+   [1 0 0 0 0])
+  ("articles" .
+   [0 0 0 0 1 0 0 0])
+  ("com" .
+   [1 0 0])
+  ("example" .
+   [2 0 0 0 0 0 0])
+  ("public_image" .
+   [0 0 0 0 1 0 0 0 0 0 0 0])
+  ("prefecture_id:" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("at_path" .
+   [0 0 0 1 0 0 0])
+  ("true" .
+   [9 0 0 0])
+  ("be_json_eql" .
+   [0 0 0 0 0 0 0 1 0 0 0])
+  ("new_events" .
+   [0 0 0 2 0 0 0 0 0 0])
+  ("context" .
+   [7 0 0 0 0 1 0])
+  ("user_board_articles__information" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("id:" .
+   [2 0 0])
+  ("new_article" .
+   [0 0 0 0 0 0 2 0 0 0 0])
+  ("new_event" .
+   [0 0 0 0 0 2 0 0 0])
+  ("new_articles" .
+   [0 0 0 0 0 0 0 0 1 0 0 0])
+  ("user_board_articles_information" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("last_event_id_by_index" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("e" .
+   [1])
+  ("user_mimasapo_events_information" .
+   [0 0 0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("has_new_mimasapo_events?" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("unless" .
+   [2 0 0 0 0 0])
+  ("infomation" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("user_board_articles_information_attributes:" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("user_mimasapo_events_information_attributes:" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("UserBoardArticlesInformation" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("UserMimasapoEventsInformation" .
+   [0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  (":user_board_articles_information" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  (":user_mimasapo_events_information" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("accepts_nested_attributes_for" .
+   [0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("last_article_id_by_index:" .
+   [0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("user_board_articles_information:" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  (":board_article" .
+   [0 0 0 0 0 3 0 0 0 0 0 0 0 0])
+  (":article" .
+   [0 0 0 0 0 1 0 0])
+  ("last_event_id_by_index:" .
+   [1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("user_mimasapo_events_information:" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  (":id" .
+   [6 0 0])
+  ("article" .
+   [3 0 0 0 1 0 0])
+  (":mimasapo_event_category_name" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  (":mimasapo_event_category" .
+   [0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  (":board_article_category_name" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("board_article_category:" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  (":board_article_category" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  (":image_thumbnail_relationships" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  (":thumbnail_id" .
+   [0 0 0 0 0 1 1 0 0 0 0 0 0])
+  (":original_id" .
+   [0 0 0 0 0 0 2 0 0 0 0 0])
+  ("integer" .
+   [1 0 0 0 0 0 0])
+  ("rainbow-delimiters-mode" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("prog-mode-hook" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("rainbow-delimiters" .
+   [0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("column-number-mode" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("line-number-mode" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("n" .
+   [2])
+  ("click" .
+   [1 0 0 0 0])
+  ("authenticate_update_web_user_path" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("focus" .
+   [2 0 0 0 0])
+  ("decoded" .
+   [1 0 0 0 0 0 0])
+  ("to_sym" .
+   [1 0 0 0 0 0])
+  ("to_f" .
+   [3 0 0 0])
+  ("another" .
+   [1 0 0 0 0 0 0])
+  ("another_user" .
+   [0 0 0 0 0 0 0 1 0 0 0 0])
+  ("UserLog" .
+   [1 0 0 0 0 0 0])
+  ("days" .
+   [1 0 0 0])
+  ("travel" .
+   [1 0 0 0 0 0])
+  ("ago" .
+   [2 0 0])
+  ("hello_addr" .
+   [2 0 0 0 2 2 0 0 0 0])
+  ("fill_in" .
+   [2 0 0 0 1 0 0])
+  ("registered_hello_email" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("hello_email" .
+   [1 0 0 0 1 1 0 0 0 0 0])
+  ("HelloMailer" .
+   [0 0 0 0 1 0 0 0 0 0 0])
+  ("end" .
+   [9 0 0])
+  ("hello-receivers" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("env" .
+   [1 0 0])
+  ("development" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("メールアドレス" .
+   [1 0 0 0 0 0 0])
+  ("durations" .
+   [3 0 0 0 0 0 0 0 0])
+  ("changeable_messages" .
+   [0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("attr_reader" .
+   [0 0 0 0 1 0 0 0 0 0 0])
+  ("activity_name" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("a" .
+   [2])
+  ("add_index" .
+   [1 0 0 0 0 0 0 0 0])
+  ("user_logs" .
+   [4 0 0 0 0 0 0 0 0])
+  ("add_column" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("have_field" .
+   [0 0 0 0 1 1 0 0 0 0])
+  ("url" .
+   [1 0 0])
+  ("intermi" .
+   [1 0 0 0 0 0 0])
+  ("new_web_user_path" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("transaction" .
+   [0 0 0 0 0 0 1 0 0 0 0])
+  ("update_attributes" .
+   [0 0 0 0 1 0 2 0 1 1 0 0 1 0 0 0 0])
+  ("DateTime" .
+   [1 0 0 0 3 0 0 0])
+  ("registered?" .
+   [0 0 0 0 3 0 0 0 0 0 0])
+  ("lock" .
+   [2 0 0 0])
+  ("watching_users" .
+   [0 0 0 0 0 0 0 0 2 0 0 0 0 0])
+  ("started?" .
+   [1 0 0 0 2 0 1 0])
+  ("current_price_plan" .
+   [0 0 4 2 0 0 2 0 0 0 0 0 0 0 0 0 0 1])
+  ("en" .
+   [5 0])
+  ("blank?" .
+   [1 0 0 0 0 0])
+  ("started_at" .
+   [2 0 0 0 0 1 1 1 0 0])
+  ("web_users_path" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("current_path" .
+   [1 0 0 1 0 0 0 0 0 0 0 0])
+  ("projectile-rails" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("projectile-global-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("make-local-variable" .
+   [0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0])
+  ("set" .
+   [3 0 0])
+  ("and" .
+   [4 0 0])
+  ("defun" .
+   [1 0 0 0 0])
+  ("scss-mode" .
+   [0 0 0 0 2 0 0 0 0])
+  ("image_parent" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("at" .
+   [1 0])
+  ("Resque" .
+   [1 0 0 0 0 0])
+  ("key" .
+   [2 0 0])
+  ("token_header" .
+   [0 0 0 0 0 4 2 0 0 0 0 0])
+  ("api_key" .
+   [2 0 0 0 0 0 0])
+  ("hexdigest" .
+   [0 0 0 1 0 0 0 0 0])
+  ("SHA1" .
+   [0 0 0 1])
+  ("Digest" .
+   [1 0 0 0 0 0])
+  ("be_empty" .
+   [0 0 0 0 0 3 0 0])
+  ("before_create" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("encrypt_secure_token" .
+   [1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("encrypt" .
+   [1 0 0 0 0 0 0])
+  ("fake_token" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("token" .
+   [13 0 0 0 0])
+  ("ApiBaseController" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("logging" .
+   [2 0 0 0 0 0 0])
+  ("after_action" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("watcher" .
+   [5 0 0 0 0 0 0])
+  ("watch_user_id" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("resources" .
+   [0 0 0 0 0 1 0 0 0])
+  ("now" .
+   [6 0 0])
+  ("Time" .
+   [2 0 0 0])
+  ("ending" .
+   [1 0 0 0 0 0])
+  ("correct_user_on_show" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("DiaryPost" .
+   [2 0 0 0 0 0 0 0 0])
+  ("AllowCors" .
+   [1 0 0 0 0 0 0 0 0])
+  ("entry_params_on_create" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0])
+  ("call" .
+   [7 0 0 0])
+  ("create_service" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("condition" .
+   [1 0 0 0 0 0 0 0 0])
+  ("walking" .
+   [8 0 0 0 0 0 0])
+  ("last" .
+   [8 0 0 0])
+  ("posts" .
+   [3 0 0 0 0])
+  ("service" .
+   [2 0 0 0 0 0 0])
+  ("be_truthy" .
+   [0 0 0 0 0 0 1 0 0])
+  ("Error" .
+   [1 0 0 0 0])
+  ("Success" .
+   [0 0 0 0 1 0 0])
+  ("diary_post" .
+   [4 0 0 0 0 1 0 0 1 0])
+  ("success?" .
+   [1 0 0 0 1 0 0 0])
+  ("rails_root" .
+   [1 0 0 0 0 1 0 0 0 0])
+  ("APP_ROOT" .
+   [0 0 0 1 0 0 0 0])
+  ("cat" .
+   [2 0 0])
+  ("PID" .
+   [2 0 0])
+  ("LIBERTY_APP_ROOT" .
+   [0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0])
+  ("internal_server_error" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("forbidden" .
+   [0 0 0 0 0 1 0 0 0])
+  ("bad_request" .
+   [0 0 0 1 0 0 0 0 0 0 0])
+  ("head" .
+   [5 0 0 0])
+  ("not_found" .
+   [1 0 0 0 0 0 0 0 0])
+  ("render_404" .
+   [0 0 0 0 0 0 1 0 0 0])
+  ("with" .
+   [8 0 0 0])
+  ("ActionController" .
+   [0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0])
+  ("ErrorsController" .
+   [0 0 0 0 0 0 2 0 0 1 0 0 0 0 0 0])
+  ("re" .
+   [1 0])
+  ("allow_cors" .
+   [0 0 0 1 1 0 2 0 0 0])
+  ("elsif" .
+   [0 0 0 1 0])
+  ("Date" .
+   [2 0 0 0])
+  ("date" .
+   [2 0 0 0])
+  ("recent" .
+   [2 0 0 0 0 0])
+  ("u" .
+   [1])
+  ("find_days_before" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1])
+  ("days_before" .
+   [0 0 0 0 1 0 1 0 0 0 0])
+  ("user_id" .
+   [6 0 0 0 1 0 0])
+  ("deliveries" .
+   [0 0 0 0 3 0 1 0 0 2])
+  ("Base" .
+   [7 0 0 1])
+  ("emergency_mail" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("EmergencyMailer" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("mail" .
+   [11 0 0 0])
+  ("clear" .
+   [1 0 0 0 0])
+  ("ActionMailer" .
+   [0 0 0 0 0 3 2 0 0 1 0 1])
+  ("after" .
+   [2 0 0 0 0])
+  ("application" .
+   [1 0 0 0 0 1 0 0 0 0 0])
+  ("Rails" .
+   [3 0 0 0 1])
+  ("from" .
+   [6 0 0 0])
+  ("no" .
+   [3 0])
+  ("day" .
+   [1 0 0])
+  ("month" .
+   [5 0 0 0 0])
+  ("year" .
+   [8 0 0 0])
+  ("where" .
+   [4 0 0 0 0])
+  ("entries" .
+   [13 0 0 0 0 0 0])
+  ("hs-special-modes-alist" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("hs-minor-mode" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("diary_entry_id" .
+   [1 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("DiaryEntry" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("food_type" .
+   [2 0 0 0 0 0 0 0 0])
+  ("food" .
+   [9 0 0 0])
+  ("diary_foods" .
+   [3 0 0 0 0 1 0 0 0 0 1])
+  ("diary_date" .
+   [5 0 0 0 0 0 0 0 0 0])
+  ("diary_entries" .
+   [1 0 1 0 0 3 0 0 2 0 0 0 3])
+  ("diary" .
+   [9 0 0 0 0])
+  ("account_name" .
+   [1 0 0 0 0 1 0 1 0 0 0 0])
+  ("entry" .
+   [3 0 0 0 0])
+  ("diary_entry" .
+   [7 0 0 0 0 1 0 0 2 0 0])
+  ("cookies" .
+   [5 0 0 0 0 0 0])
+  ("apply_header" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("allow_origin_to_response" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("helpers" .
+   [1 0 0 1 0 0 0])
+  ("ApplicationController" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("global-auto-complete-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("DEL_FLG" .
+   [0 0 0 1 0 0 0])
+  ("ROWCOUNT" .
+   [0 0 0 1 0 0 0 0])
+  ("LOGIN_ID" .
+   [0 0 0 0 0 1 0 0])
+  ("WHERE" .
+   [1 0 0 0 0])
+  ("FN_PP_SYSTEM_NAME" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("UPD_SYSTEM" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("UPD_USER" .
+   [0 0 0 0 0 0 1 0])
+  ("GETDATE" .
+   [0 0 0 1 0 0 0])
+  ("UPD_DATE" .
+   [1 0 0 0 0 0 0 0])
+  ("P_ADMIN_FLG" .
+   [0 0 0 0 1 0 0 0 0 0 0])
+  ("P_PASSWORD" .
+   [0 0 0 0 0 0 1 0 0 0])
+  ("AGENCY_ID" .
+   [0 0 0 0 0 0 1 0 0])
+  ("SET" .
+   [2 0 0])
+  ("UPDATE" .
+   [1 0 0 0 0 0])
+  ("UpdateCount" .
+   [0 0 0 0 0 0 0 0 0 0 3])
+  ("P_AGENCY_ID" .
+   [0 0 0 0 0 0 0 1 0 0 0])
+  ("char" .
+   [1 0 0 0])
+  ("P_LOGIN_ID" .
+   [0 0 0 0 1 0 1 0 0 0])
+  ("dbo" .
+   [3 0 0])
+  ("P_UPD_USER" .
+   [0 0 0 0 0 0 1 1 0 0])
+  ("P_E_MAIL" .
+   [0 0 0 1 0 0 0 0])
+  ("P_MOBILE_PHONE" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("P_FAX" .
+   [0 0 0 1 0])
+  ("P_PHONE_NUMBER2" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("sql-complete" .
+   [0 0 0 0 1 0 0 1 0 0 0 0])
+  ("weather_id" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("humidity" .
+   [0 0 0 1 0 0 0 0])
+  ("grnd_level" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("sea_level" .
+   [0 0 0 1 0 0 0 0 0])
+  ("pressure" .
+   [0 0 0 1 0 0 0 0])
+  ("temp_max" .
+   [0 0 0 0 0 1 0 0])
+  ("temp_min" .
+   [0 0 0 0 0 0 0 1])
+  ("dt" .
+   [1 0])
+  ("weather_condition_code" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("weather" .
+   [6 0 0 0 0 0 0])
+  ("order" .
+   [3 0 0 0 0])
+  ("city_id" .
+   [1 0 0 0 3 0 0])
+  ("new" .
+   [13 0 0])
+  ("all" .
+   [3 0 0])
+  ("City" .
+   [2 0 0 0])
+  ("cities" .
+   [0 0 0 1 0 0])
+  ("set_city" .
+   [1 0 0 0 0 0 0 0])
+  ("update" .
+   [6 0 0 0 0 0])
+  ("edit" .
+   [1 0 0 0])
+  ("show" .
+   [5 0 0 0])
+  ("subject" .
+   [5 0 0 2 0 0 0])
+  ("ifs" .
+   [2 0 0])
+  ("ifstream" .
+   [1 0 0 0 0 0 0 0])
+  ("hoge" .
+   [12 0 0 0])
+  ("fstream" .
+   [1 0 0 0 0 0 0])
+  ("hpp" .
+   [2 0 0])
+  ("highgui" .
+   [1 0 0 0 0 0 1])
+  ("opencv2" .
+   [2 0 0 0 0 0 0])
+  ("descriptors" .
+   [1 0 0 0 0 0 0 0 0 0 14])
+  ("extractor" .
+   [1 0 0 0 0 1 0 0 0])
+  ("keypoints" .
+   [2 0 0 0 0 0 0 0 4])
+  ("detector" .
+   [0 0 0 0 1 0 0 0])
+  ("gray_image" .
+   [0 0 0 0 3 0 0 0 0 0])
+  ("image" .
+   [6 0 0 0 0])
+  ("Mat" .
+   [11 0 0])
+  ("eq" .
+   [27 0])
+  ("followers_path" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("followers" .
+   [1 0 0 0 0 0 0 0 0])
+  ("following" .
+   [1 0 0 0 0 0 0 0 0])
+  ("get" .
+   [7 0 0])
+  ("member" .
+   [1 0 0 0 0 0])
+  ("nil?" .
+   [9 0 1 0])
+  ("find_by" .
+   [5 0 0 0 0 0 0])
+  ("correct_user" .
+   [1 0 0 0 0 0 0 0 0 1 0 1])
+  ("root_url" .
+   [2 0 0 0 0 0 0 0])
+  ("visit" .
+   [6 0 0 0 0])
+  ("Micropost" .
+   [2 0 0 0 0 0 0 0 0])
+  ("feed_items" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("home" .
+   [1 0 0 0])
+  ("index" .
+   [2 0 0 0 0])
+  ("paginate" .
+   [2 0 0 0 0 0 0 0])
+  ("build" .
+   [5 0 0 1 0])
+  ("current_user" .
+   [0 0 0 0 0 0 0 0 0 0 0 3])
+  ("micropost" .
+   [5 0 0 0 0 0 1 0 1])
+  ("text" .
+   [3 0 0 0])
+  ("have_selector" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("page" .
+   [14 0 0 0])
+  ("each" .
+   [7 0 0 0])
+  ("feed" .
+   [3 0 0 0])
+  ("user=" .
+   [0 0 0 0 1])
+  ("content" .
+   [2 0 0 0 0 0 0])
+  ("microposts" .
+   [0 0 0 0 0 0 0 0 1 1])
+  ("be_admin" .
+   [0 0 0 0 0 0 0 1])
+  ("not_to" .
+   [8 0 0 0 0 0])
+  ("patch" .
+   [2 0 0 0 0])
+  ("current_user?" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 3])
+  ("admin_user" .
+   [0 0 0 0 1 0 1 0 0 0])
+  ("only" .
+   [10 0 0 0])
+  ("before_action" .
+   [3 0 0 0 0 0 3 1 3 0 0 0 0])
+  ("root_path" .
+   [1 0 0 0 3 1 0 1 0])
+  ("response" .
+   [7 0 0 1 0 2 0 1])
+  ("specify" .
+   [0 0 0 1 1 2 0])
+  ("delete" .
+   [3 0 0 0 0 0])
+  ("no_capybara" .
+   [0 0 0 0 0 3 0 0 0 0 0])
+  ("non_admin" .
+   [0 0 0 0 0 0 0 1 0])
+  ("sign_in" .
+   [2 0 2 0 0 0 0])
+  ("redirect_to" .
+   [2 0 0 0 1 0 1 0 0 0 2])
+  ("success" .
+   [0 0 0 0 1 0 0])
+  ("flash" .
+   [2 0 0 0 0])
+  ("id" .
+   [36 0])
+  ("params" .
+   [31 0 0 0 0 0])
+  ("find" .
+   [14 0 0 0])
+  ("destroy" .
+   [8 0 0 0 2 0 1])
+  ("by" .
+   [9 0])
+  ("count" .
+   [24 0 0 0 0])
+  ("change" .
+   [18 0 0 0 1 0])
+  ("match" .
+   [2 0 0 0 0])
+  ("click_link" .
+   [1 0 0 0 0 0 0 0 0 1])
+  ("expect" .
+   [60 0 0 1 6 0])
+  ("user_path" .
+   [3 0 0 0 0 0 0 0 1])
+  ("href" .
+   [4 0 0 0])
+  ("s" .
+   [3])
+  ("create" .
+   [37 0 0 1 0 2])
+  ("FactoryGirl" .
+   [0 0 3 17 0 1 0 0 0 0 6])
+  ("have_link" .
+   [4 0 0 0 0 0 0 1 0])
+  ("admin" .
+   [7 0 1 0 1])
+  ("factory" .
+   [1 0 0 0 0 0 0])
+  ("default" .
+   [1 0 0 0 0 0 0])
+  ("be_false" .
+   [1 0 0 0 0 0 0 0])
+  ("length" .
+   [3 0 0 0 0 0])
+  ("validates" .
+   [3 0 0 0 0 0 0 0 0])
+  ("to" .
+   [73 0])
+  ("user_for_invalid_password" .
+   [0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("let" .
+   [31 0 0])
+  ("authenticate" .
+   [0 0 0 0 0 0 3 0 0 0 0 0])
+  ("found_user" .
+   [0 0 0 0 0 2 0 0 0 0])
+  ("User" .
+   [27 0 0 0])
+  ("save" .
+   [7 0 0 0])
+  ("has_secure_password" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("be" .
+   [4 0])
+  ("be_valid" .
+   [2 0 0 0 0 2 0 0])
+  ("should_not" .
+   [8 0 0 0 1 0 1 1 0 1])
+  ("user" .
+   [137 0 0 0])
+  ("before" .
+   [39 0 0 0 2 0])
+  ("describe" .
+   [16 0 0 6 11 3 0 0])
+  ("password_confirmation" .
+   [0 0 0 2 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("password" .
+   [6 0 2 0 1 0 0 1])
+  ("respond_to" .
+   [6 0 0 0 0 2 1 3 0 4])
+  ("should" .
+   [32 0 0 1 6 2])
+  ("it" .
+   [72 0])
+  ("itos" .
+   [1 0 0 0])
+  ("aaa" .
+   [1 0 0])
+  ("printall" .
+   [5 0 0 0 0 0 0 0])
+  ("n_total" .
+   [1 0 0 0 0 0 0])
+  ("max" .
+   [1 0 0])
+  ("t_tota" .
+   [0 0 0 0 0 1])
+  ("numeric_limits" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("val2" .
+   [1 0 0 0])
+  ("val1" .
+   [1 0 0 0])
+  ("std" .
+   [11 0 0])
+  ("first" .
+   [11 0 1 2 0])
+  ("this_pair" .
+   [1 0 0 0 0 2 0 0 1])
+  ("search" .
+   [4 0 0 0 0 0])
+  ("price" .
+   [5 0 0 0 0])
+  ("next_pair" .
+   [0 0 0 0 0 0 0 0 2])
+  ("next_idx" .
+   [3 0 0 0 0 0 0 0])
+  ("data" .
+   [4 0 0 0])
+  ("idx" .
+   [19 0 0])
+  ("target" .
+   [2 0 0 1 0 0])
+  ("result" .
+   [7 0 0 0 1 0])
+  ("include" .
+   [18 0 0 0 0 0 0])
+  ("new_value" .
+   [1 0 0 0 0 0 1 0 0])
+  ("left_idx" .
+   [0 0 0 1 0 0 0 0])
+  ("sums" .
+   [2 0 0 0])
+  ("i" .
+   [3])
+  ("item" .
+   [4 0 0 0])
+  ("width" .
+   [3 0 0 1 0])
+  ("n_readed" .
+   [0 0 0 0 7 1 0 0])
+  ("endl" .
+   [17 0 0 0])
+  ("max_value" .
+   [1 0 0 3 2 1 4 0 0])
+  ("cout" .
+   [19 0 0 0])
+  ("push_back" .
+   [1 0 0 0 1 0 0 0 0])
+  ("empty" .
+   [0 0 1 0 0])
+  ("buf" .
+   [3 0 0])
+  ("sum" .
+   [3 0 0])
+  ("my_split" .
+   [0 0 0 1 1 0 0 0])
+  ("items" .
+   [9 0 0 0 0])
+  ("stoi" .
+   [8 0 0 0])
+  ("n_lines" .
+   [15 0 0 0 1 1 2])
+  ("cin" .
+   [5 0 0])
+  ("dst" .
+   [3 0 0])
+  ("ss" .
+   [2 0])
+  ("stringstream" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("str" .
+   [21 0 0])
+  ("getline" .
+   [7 0 0 1 0 0 0])
+  ("vector" .
+   [9 0 0 1 0 0])
+  ("string" .
+   [18 0 0 0 0 0])
+  ("attributes=" .
+   [0 0 0 0 1 0 0 0 0 0 2])
+  ("email" .
+   [22 0 0 0 0])
+  ("name" .
+   [9 0 0 0])
+  ("class_locations" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("print" .
+   [1 0 0 0 0])
+  ("times" .
+   [1 0 0 0 0])
+  ("RUBY_COPYRIGHT" .
+   [0 0 0 0 2 0 0 0 0 0 0 0 0 0])
+  ("setq" .
+   [3 0 0 0])
+  ("ruby-block" .
+   [0 0 0 0 0 0 1 0 0 0])
+  ("electric-layout-mode" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("electric-indent-mode" .
+   [0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("electric-pair-mode" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("abbrev-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("lambda" .
+   [1 0 0 2 0 0])
+  ("ruby-mode-hook" .
+   [1 0 0 0 0 0 0 0 0 0 0 1 1 0])
+  ("add-hook" .
+   [7 0 0 0 0 0 2 0])
+  ("ruby-end" .
+   [1 0 0 0 0 0 0 0])
+  ("interpreter-mode-alist" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("auto-mode-alist" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 5])
+  ("ruby-mode" .
+   [7 0 0 0 0 0 0 0 0])
+  ("DataTable" .
+   [0 0 0 0 1 0 1 0 0])
+  ("ByRef" .
+   [1 0 0 0 0])
+  ("loadCategoryCode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("loadMasterDataCode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("LoadMasterDataCode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("LoadCategoryCode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("LoadMasterData" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 1])
+  ("LoadCategory" .
+   [0 0 0 0 0 0 0 0 1 0 0 1])
+  ("reload" .
+   [5 0 0 0 1 0])
+  ("MustOverride" .
+   [0 0 0 0 1 0 0 0 0 0 0 0])
+  ("sub" .
+   [2 0 0])
+  ("InsertCategoryCode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("INSERT_CATEGORY_NAME_INVALID" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("INSERT_CATEGORY_UNKNOWN_ERROR" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("InsertCategory" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("Visible" .
+   [1 0 0 0 1 0 0])
+  ("btnUpdateCategory" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("btnAddCategory" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("btnDeleteCategory" .
+   [0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0])
+  ("True" .
+   [1 0 0 1])
+  ("Enabled" .
+   [0 0 0 0 0 0 2])
+  ("GetSelectedCategoryInfo" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Contains" .
+   [0 0 0 1 0 0 0 0])
+  ("Cols" .
+   [1 0 0 0])
+  ("CATEGORY_VALUE" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("AndAlso" .
+   [1 0 0 3 1 0 0])
+  ("Row" .
+   [2 0 0])
+  ("DELETE_CATEGORY_UNKNOWN_ERROR" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ValidateCategoryName" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("UserInfo" .
+   [2 0 0 0 0 0 0 1])
+  ("ElseIf" .
+   [0 0 0 0 3 0])
+  ("Permanent" .
+   [0 0 0 1 0 0 0 0 1])
+  ("UPDATE_CATEGORY_NAME_DUPLICATE" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("UPDATE_CATEGORY_ROW_NOT_SELECTED" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("resultCode" .
+   [2 0 0 0 0 0 12 0 1 0])
+  ("Not" .
+   [1 0 0])
+  ("AfterUpdateCategory" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("categoryInfo" .
+   [0 0 0 0 1 0 0 0 0 0 0 10])
+  ("CheckCategoryNameDuplication" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Length" .
+   [0 0 0 1 0 0])
+  ("Function" .
+   [1 0 0 1 0 0 0 0])
+  ("Boolean" .
+   [1 0 0 3 0 0 0])
+  ("As" .
+   [15 0])
+  ("updateCount" .
+   [0 0 0 0 0 0 0 0 0 2 1])
+  ("category" .
+   [2 0 0 0 3 1 0 1])
+  ("If" .
+   [7 0])
+  ("TopFlexGrid" .
+   [0 0 0 6 0 0 0 0 0 0 0])
+  ("AfterInsertCategory" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Private" .
+   [9 0 0 0 0 0 0])
+  ("insertCompleted" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 1])
+  ("Nothing" .
+   [1 0 1 0 0 4 0])
+  ("IsNot" .
+   [0 0 1 0 0])
+  ("Else" .
+   [5 0 0 1])
+  ("categoryID" .
+   [3 0 0 0 1 0 0 0 0 7])
+  ("String" .
+   [5 0 0 0 8 0])
+  ("errorMessage" .
+   [0 0 0 2 1 14 0 0 0 0 0 0])
+  ("Then" .
+   [0 0 0 3])
+  ("then" .
+   [9 0 0 0])
+  ("rows" .
+   [7 0 0 0])
+  ("dupCheckStr" .
+   [0 0 0 1 0 0 0 0 0 0 0])
+  ("newCategoryName" .
+   [0 0 0 0 0 2 0 3 1 0 0 0 0 0 0])
+  ("Dim" .
+   [19 0 0])
+  ("Sub" .
+   [9 0 1])
+  ("End" .
+   [14 0 0])
+  ("ByVal" .
+   [2 0 7 0 1])
+  ("System" .
+   [0 0 0 2 0 0])
+  ("Errorf" .
+   [0 0 0 0 0 1])
+  ("main" .
+   [7 0 0 0])
+  ("func" .
+   [0 0 1 2])
+  ("fmt" .
+   [1 1 0])
+  ("import" .
+   [0 0 0 1 0 1])
+  ("package" .
+   [0 0 1 0 2 1 0])
+  ("require" .
+   [12 0 1 0 4 0 0])
+  ("add-to-list" .
+   [1 0 0 1 0 0 1 0 1 4 0])
+  ("hc-zenburn" .
+   [0 0 1 0 0 0 0 0 0 0])
+  ("PATH" .
+   [0 0 0 2])
+  ("RBENVPATH" .
+   [0 0 1 0 0 0 0 0 0])
+  ("robe-mode" .
+   [2 0 0 0 0 0 0 0 0])
+  ("autoload" .
+   [2 0 0 0 0 0 0 1])
+  ("nil" .
+   [9 0 0])
+  ("ac-robe-" .
+   [0 0 0 0 0 0 0 1])
+  ("ac-robe-setup" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 1])
+  ("gem" .
+   [28 0 0])
+  ("Spork" .
+   [1 0 0 0 0])
+  ("SampleApp" .
+   [0 0 0 1 0 0 0 0 0])
+  ("config" .
+   [1 0 0 1 0 1])
+  ("assets" .
+   [0 0 0 0 0 1])
+  ("namespace" .
+   [0 0 0 0 2 1 0 0 0])
+  ("return" .
+   [1 0 0 0 1 1])
+  ("pairs" .
+   [7 0 0 0 2])
+  ("n_people" .
+   [0 0 0 0 0 1 0 0])
+  ("n_price" .
+   [0 0 0 0 0 0 1])
+  ("t_total" .
+   [3 0 0 0 1 0 0])
+  ("itr" .
+   [6 0 0])
+  ("pair" .
+   [3 0 0 0])
+  ("n_require" .
+   [2 0 0 0 1 0 2 1 0])
+  ("calc" .
+   [1 0 0 0])
+  ("n_elem" .
+   [1 0 0 0 0 0])
+  ("start_idx" .
+   [0 0 0 0 3 1 0 0 0])
+  ("total" .
+   [4 0 0 0 0])
+  ("second" .
+   [3 0 0 0 1 0])
+  ("undo-tree" .
+   [1 0 0 0 0 0 0 0 0])
+  ("global-undo-tree-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("global-set-key" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("kbd" .
+   [2 0 0])
+  ("size" .
+   [4 0 0 0])
+  ("options" .
+   [3 0 0 0 0 0 1])
+  ("click_button" .
+   [1 0 0 1 0 1 0 0 0 0 0 0])
+  ("submit" .
+   [2 0 0 0 0 0])
+  ("have_title" .
+   [1 0 0 0 0 0 0 1 0 0])
+  ("have_content" .
+   [1 0 0 0 0 1 0 1 3 1 0 0])
+  ("users_path" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("signed_in?" .
+   [1 0 1 0 0 0 1 0 0 0])
+  ("zero_width_space" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("the" .
+   [1 0 0])
+  ("other_uther" .
+   [0 0 0 0 0 0 1 0 0 0 0])
+  ("users" .
+   [2 0 0 0 2])
+  ("iostream" .
+   [1 0 0 0 1 0 0 0])
+  ("opencv" .
+   [1 0 0 0 0 0])
+  ("argc" .
+   [2 0 0 0])
+  ("argv" .
+   [2 0 0 0])
+  ("usage" .
+   [3 0 0 0 0])
+  ("cv" .
+   [16 0])
+  ("print_usage" .
+   [0 0 0 0 0 0 0 0 0 0 2])
+  ("line" .
+   [7 0 0 0])
+  ("imread" .
+   [1 0 0 0 0 0])
+  ("IMREAD_GRAY" .
+   [0 0 0 1 0 0 0 0 0 0 0])
+  ("p_detector" .
+   [1 0 0 0 1 0 0 0 0 0])
+  ("detect" .
+   [1 0 0 0 0 0])
+  ("p_extractor" .
+   [0 0 0 0 1 0 0 0 0 0 0])
+  ("compute" .
+   [1 0 0 0 0 0 0])
+  ("ofs" .
+   [5 0 0])
+  ("write" .
+   [3 0 0 0 0])
+  ("cols" .
+   [4 0 0 0])
+  ("all_descriptors" .
+   [0 0 0 0 0 1 1 0 0 0 0 0 0 0 0])
+  ("all_rows" .
+   [1 0 0 0 0 0 1 0])
+  ("size_t" .
+   [1 0 0 0 0 0])
+  ("all_cols" .
+   [0 0 0 0 0 0 1 1])
+  ("all_type" .
+   [0 0 0 0 1 1 0 0])
+  ("mat" .
+   [5 0 0])
+  ("roi_rect" .
+   [1 0 0 2 0 0 2 3])
+  ("height" .
+   [2 0 0 0 0 0])
+  ("combined" .
+   [1 0 0 0 1 2 0 0])
+  ("roi" .
+   [1 0 0])
+  ("labels" .
+   [1 0 0 0 0 0])
+  ("criteria" .
+   [0 0 0 0 0 1 0 0])
+  ("centers" .
+   [2 0 0 0 0 1 0])
+  ("ofstream" .
+   [1 0 0 0 0 0 0 0])
+  ("ios" .
+   [5 0 0])
+  ("binary" .
+   [1 0 0 0 0 0])
+  ("group" .
+   [1 0 0 0 0])
+  ("vcs_info" .
+   [1 0 0 0 0 0 0 0])
+  ("WeatherConditionCode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("weather_condition_codes" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("code" .
+   [1 0 0 0])
+  ("queue" .
+   [1 0 0 0 0])
+  ("perform" .
+   [1 0 0 0 0 0 0])
+  ("city" .
+   [1 0 0 0])
+  ("uri" .
+   [4 0 0])
+  ("http" .
+   [3 0 0 0])
+  ("start" .
+   [1 0 0 0 0])
+  ("sql-mode" .
+   [1 0 0 0 0 0 0 0])
+  ("sql-mode-hook" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("auto-complete-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("export" .
+   [0 0 0 0 1 0])
+  ("ANDROID_SDK_HOME" .
+   [0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("console" .
+   [1 0 0 0 0 0 0])
+  ("log" .
+   [1 0 0])
+  ("method" .
+   [2 0 0 0 0 0])
+  ("layout" .
+   [3 0 0 0 0 0])
+  ("request" .
+   [4 0 0 1 0 0 0])
+  ("headers" .
+   [3 0 0 0 0 0 4])
+  ("define-key" .
+   [0 0 0 0 0 0 0 0 0 1])
+  ("global-map" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("hs-toggle-hiding" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("json" .
+   [13 0 0 0])
+  ("d" .
+   [4])
+  ("find_by_year" .
+   [0 0 0 0 0 0 0 1 0 0 0 0])
+  ("put" .
+   [7 0 0])
+  ("to_i" .
+   [1 0 0 1])
+  ("strptime" .
+   [0 0 0 1 1 0 0 0])
+  ("f" .
+   [1])
+  ("param" .
+   [5 0 0 0 0])
+  ("post" .
+   [7 0 0 0])
+  ("Api" .
+   [5 0 0])
+  ("V1" .
+   [5 0])
+  ("comment" .
+   [7 0 0 0 0 0 1])
+  ("Integer" .
+   [0 0 0 0 0 0 1])
+  ("comments" .
+   [1 0 0 0 0 0 0 1])
+  ("body" .
+   [6 0 0 0])
+  ("concat" .
+   [1 0 0 0 0 1])
+  ("c2" .
+   [1 0])
+  ("commentable" .
+   [0 0 0 0 0 0 0 0 1 0 0])
+  ("signed_in_user" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("get_parent_resource" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("patch_comment" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("Comment" .
+   [1 0 0 0 0 0 0])
+  ("have_http_status" .
+   [0 0 0 0 3 3 0 0 0 1 0 0 0 0 0 1])
+  ("unauthorized" .
+   [0 0 0 0 1 0 0 0 0 0 0 0])
+  ("byebug" .
+   [16 0 0 4 0 0])
+  ("form" .
+   [1 0 0 0])
+  ("has_file" .
+   [0 0 0 0 0 1 0 0])
+  ("created" .
+   [1 0 0 0 0 0 0])
+  ("have_json_path" .
+   [0 0 0 0 0 0 2 0 0 0 0 0 0 0])
+  ("update_data" .
+   [0 0 0 0 0 0 1 0 0 0 0])
+  ("images" .
+   [1 0 0 0 0 0])
+  ("beginning" .
+   [0 0 0 0 0 0 0 1 0])
+  ("div" .
+   [3 0 0])
+  ("class" .
+   [4 0 0 0 0])
+  ("field" .
+   [1 0 0 0 0])
+  ("label" .
+   [1 0 0 0 0])
+  ("br" .
+   [1 0])
+  ("from_user" .
+   [0 0 0 0 1 0 0 0 1])
+  ("yield" .
+   [1 0 0 0 0])
+  ("authenticate_with_token" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("player" .
+   [1 0 0 0 0 0])
+  ("watching" .
+   [14 0 1 1 1 0 0 1])
+  ("UserWatchUserRelation" .
+   [0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("destroy_all" .
+   [0 0 0 0 0 1 1 0 0 0 0])
+  ("deliver_later" .
+   [0 0 0 0 0 0 2 0 0 0 0 0 0])
+  ("an" .
+   [1 0])
+  ("watchers" .
+   [4 0 0 2 0 0 0 0])
+  ("w" .
+   [2])
+  ("pluck" .
+   [3 0 0 0 0])
+  ("UserNoActionMailer" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("user_no_action" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("SecureRandom" .
+   [0 0 0 0 1 0 0 0 0 0 0 0])
+  ("urlsafe_base64" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("tab-width" .
+   [0 0 0 0 0 0 1 0 0])
+  ("coffee-mode-hook" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("coffee-custom" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("scss" .
+   [1 0 0 0])
+  ("projectile-mode-hook" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("projectile-rails-on" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("projectile" .
+   [0 0 0 1 0 0 0 0 0 0])
+  ("birth_date" .
+   [0 0 1 1 1 2 0 0 0 0])
+  ("convert_birth_date" .
+   [0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("user_params" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("to_s" .
+   [3 0 0 0])
+  ("watchers_attributes" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("join" .
+   [3 0 0 0])
+  ("PricePlanBasic" .
+   [0 0 0 0 0 0 0 0 0 0 0 2 0 0])
+  ("PricePlanMinimum" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0])
+  ("be_falsey" .
+   [0 0 0 0 0 0 1 0 0])
+  ("blocked" .
+   [1 0 0 0 0 0 0])
+  ("changeable" .
+   [0 0 0 1 0 0 0 0 0 0])
+  ("changeable_from" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("UserNoActionHistory" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ActiveRecord" .
+   [0 0 0 0 0 0 0 0 1 0 0 0])
+  ("belongs_to" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("user_no_action_histories" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("includes" .
+   [1 0 0 0 0 0 0 0])
+  ("user_no_action_history" .
+   [1 0 0 0 0 0 0 3 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("sent_mail" .
+   [2 0 0 0 0 1 0 0 0])
+  ("t" .
+   [2])
+  ("render" .
+   [4 0 0 0 0 0])
+  ("zone" .
+   [1 0 0 0])
+  ("local" .
+   [1 0 0 0 0])
+  ("end_of_month" .
+   [0 0 0 0 1 0 2 0 0 0 0 0])
+  ("Timecop" .
+   [0 0 0 1 2 0 0])
+  ("UserIdDispenser" .
+   [0 0 0 0 2 0 1 0 0 0 0 0 0 0 0])
+  ("counter" .
+   [1 0 0 0 0 0 0])
+  ("get_count_with_increment" .
+   [0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("set_pass_name" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("pass_name" .
+   [1 0 0 0 0 0 0 0 0])
+  ("PATH:" .
+   [1 0 0 0 0])
+  ("enh-ruby-mode-hook" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  (":mimasapo_events" .
+   [0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0])
+  ("downcase" .
+   [0 0 2 0 0 0 0 0])
+  ("do" .
+   [22 0])
+  (":user" .
+   [4 0 0 0 0])
+  (":event" .
+   [3 0 0 0 0 0])
+  (":mimasapo_event" .
+   [0 0 0 0 1 2 0 0 0 0 0 0 0 0 0])
+  ("mimasapo_events" .
+   [0 0 0 0 2 0 0 0 0 0 0 0 0 0 0])
+  ("event" .
+   [6 0 0 0 1])
+  ("foreign_key:" .
+   [0 0 1 0 0 0 0 0 0 0 0 0])
+  ("source:" .
+   [1 0 0 0 0 0 0])
+  ("user_mimasapo_event_relationships" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("user:" .
+   [3 0 0 0 0])
+  ("req_user" .
+   [1 0 0 0 0 0 0 0])
+  ("requested" .
+   [1 0 0 0 0 0 0 0 0])
+  ("canceled" .
+   [0 0 0 0 1 0 0 0])
+  ("utf" .
+   [2 0 0])
+  ("web" .
+   [1 0 0])
+  ("shared" .
+   [1 0 0 0 0 0])
+  ("resources:" .
+   [0 0 0 0 0 0 1 0 0 0])
+  ("only:" .
+   [1 0 0 0 0])
+  (":index" .
+   [4 0 0 0 0 0])
+  (":show" .
+   [3 0 0 0 0])
+  ("th" .
+   [1 0])
+  ("状態" .
+   [1 0])
+  ("掲示板" .
+   [1 0 0])
+  ("event_info" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("event:" .
+   [1 0 0 0 0 0])
+  ("article:" .
+   [1 0 0 0 0 0 0 0])
+  ("GET" .
+   [1 0 0])
+  ("notices" .
+   [4 0 0 0 0 0 0])
+  (":found" .
+   [2 0 0 0 0 0])
+  ("assigns" .
+   [0 0 0 2 2 0 0])
+  ("login" .
+   [3 0 0 0 0])
+  ("login_admin" .
+   [0 0 0 0 0 0 0 1 0 0 0])
+  ("controller:" .
+   [0 0 0 0 0 1 0 0 0 0 0])
+  (":ok" .
+   [1 0 0])
+  (":notices" .
+   [1 0 0 0 0 2 0 0])
+  ("Notice" .
+   [0 0 0 0 2 0])
+  ("notice" .
+   [1 0 0 0 0 0])
+  (":notice" .
+   [3 0 0 0 0 1 0])
+  (":new" .
+   [1 0 0 0])
+  (":create" .
+   [1 0 0 0 0 0 0])
+  (":edit" .
+   [1 0 0 0 0])
+  (":update" .
+   [1 0 0 0 0 0 0])
+  ("notice:" .
+   [1 0 0 0 0 0 0])
+  ("title:" .
+   [1 0 0 0 0 0])
+  ("api_v1_mimasapo_event_path" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("category:" .
+   [6 0 0 0 0 0 0 0 0])
+  ("MimasapoEventCategory" .
+   [0 0 1 0 4 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("reload_json" .
+   [0 0 0 0 1 0 0 0 0 0 0])
+  ("length:" .
+   [0 0 0 0 0 0 1])
+  ("status:" .
+   [1 0 0 0 0 0 0])
+  ("statuses" .
+   [1 0 0 0 0 0 0 0])
+  (":" .
+   [1])
+  ("not" .
+   [2 0 0])
+  (":category" .
+   [2 0 0 0 0 0 0 0 0])
+  ("invisible" .
+   [1 0 0 0 0 0 0 0 0])
+  (":status" .
+   [1 0 0 0 0 0 0])
+  ("MimasapoEvent" .
+   [1 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("arel_table" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("event_table" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("Image" .
+   [1 0 0 0 0])
+  ("read-file-name-completion-ignore-case" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("read-buffer-completion-ignore-case" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("device" .
+   [2 0 0 0 0 0])
+  ("errors" .
+   [1 0 0 0 0 0])
+  ("full_messages" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("have" .
+   [1 0 0 0])
+  ("been" .
+   [1 0 0 0])
+  ("belonged" .
+   [1 0 0 0 0 0 0 0])
+  ("create_watching" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  (":bad_request" .
+   [0 0 0 0 2 1 0 0 0 0 0 0])
+  ("presence:" .
+   [2 0 0 0 0 0 0 0 0])
+  (":platform" .
+   [1 0 0 0 0 0 0 0 0])
+  ("api_v1_devices_path" .
+   [0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("registered_id:" .
+   [0 0 0 0 2 1 0 0 0 0 0 0 0 0])
+  ("platform:" .
+   [2 0 0 0 1 0 0 0 0])
+  ("invalid" .
+   [1 0 0 0 0 0 0])
+  ("valid" .
+   [1 0 0 0 0])
+  (":created" .
+   [1 0 0 0 0 0 0 0])
+  ("not_device_params" .
+   [0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("rescue" .
+   [2 0 0 0 0 0])
+  ("begin" .
+   [1 0 0 0 0])
+  ("post_device" .
+   [0 0 0 0 0 0 0 2 0 0 0])
+  ("device:" .
+   [2 0 0 0 0 0 0])
+  ("devices" .
+   [1 0 0 0 0 0 0])
+  (":conflict" .
+   [0 0 0 0 0 1 0 0 0])
+  ("sandbox" .
+   [1 0 0 0 0 0 0])
+  ("Configuration" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0])))
