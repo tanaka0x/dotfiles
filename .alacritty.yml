@@ -1,0 +1,33 @@
+import:
+  - ~/.alacritty.d/colors.yml
+  - ~/.alacritty.d/keybindings.yml
+
+env:
+  TERM: xterm-256color
+
+window:
+  padding:
+    x: 6
+    y: 6
+
+font:
+  normal:
+    family: Source Han Code JP
+    #style: Regular
+  bold:
+    family: Source Han Code JP
+    style: Bold
+  italic:
+    family: Source Han Code JP
+    style: Italic
+  bold_italic:
+    family: Source Han Code JP
+    style: Bold Italic
+  size: 14.0
+
+  # Thin strokes are suitable for retina displays, but for non-retina screens
+  # it is recommended to set `use_thin_strokes` to `false`.
+  use_thin_strokes: true
+
+# Live config reload (changes require restart)
+live_config_reload: true
